@@ -38,3 +38,11 @@ header {
     box-shadow: 0 10px 20px rgba(174, 182, 191)
 }
 
+header h1 {
+    color: var(--secondary);
+    background-color: var(--tertiary);
+    padding: 5px 1% 5px 6%;
+    margin: 0;
+    font-size: 4vw;
+    line-height: 1;
+}
