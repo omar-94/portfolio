@@ -132,7 +132,7 @@ main {
     line-height: 1;
 }
 
-.page-section div {
+.page-section > div {
     flex: 0 0 77%;
 }
 
@@ -181,3 +181,27 @@ main {
 .flex-item h3 {
     font-size: 1.5rem;
 }
+
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact address a {
+    color: var(--tertiary);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    margin: 0 .2rem .1rem;
+    display: inline-block;
+}
+
+.contact address a:hover {
+    background-size: 100% 88%;
+    color: var(--secondary);
+}
+
