@@ -28,8 +28,13 @@ p {
     margin: 0;
 }
 
+.profile-picture {
+  min-height: 150px;
+  max-height: 150px;
+}
+
 header {
-    padding: 15px 6% 15px 6%;
+    padding: 15px 2% 15px 2%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
