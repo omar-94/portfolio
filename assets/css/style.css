@@ -13,7 +13,7 @@
 body {
     margin: 0; 
     padding: 0;
-    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
@@ -170,7 +170,7 @@ main {
 }
 
 .flex-item:hover {
-    background-color: grey;
+    background-color: black;
 }
 
 .flex-item div {
@@ -205,3 +205,27 @@ main {
     color: var(--secondary);
 }
 
+/* project images */
+.project1 {
+    background-image: url(../images/galaxy1.jpeg);
+}
+
+.project2 {
+    background-image: url(../images/galaxy2.jpeg);
+}
+
+.project3 {
+    background-image: url(../images/galaxy3.jpeg);
+}
+
+.project4 {
+    background-image: url(../images/galaxy4.jpeg);
+}
+
+.project5 {
+    background-image: url(../images/galaxy5.jpeg);
+}
+
+.project6 {
+    background-image: url(../images/galaxy6.jpeg);
+}
