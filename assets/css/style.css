@@ -60,6 +60,7 @@ nav {
 
 nav a {
     padding: 5px 10px;
+    text-decoration: none;
     color: var(--light);
     margin-right: 10px;
     background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
